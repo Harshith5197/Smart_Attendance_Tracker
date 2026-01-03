@@ -46,26 +46,6 @@ Scalable structure for future enhancements
 
 Proper error handling for database and connection issues
 
-## 📁 Project Folder Structure
-
-```text
-Smart_Attendance_System
-├── __pycache__
-├── data
-│   └── attendance.csv
-├── reports
-│   ├── report.csv
-│   └── chart.png
-├── templates
-│   └── index.html
-├── app.py
-├── main.py
-├── db.py
-├── checkin_checkout.py
-├── report_generator.py
-├── visualize.py
-├── requirements.txt
-└── README.md
 
 🧠 Project Architecture
 
@@ -102,3 +82,26 @@ mongodb+srv://<username>:<password>@cluster0.mongodb.net/
 Run the main Python file:
 
 python app.py
+
+## 📁 Project Folder Structure
+
+## 📁 Project Folder Structure
+
+```text
+Smart_Attendance_System
+├── __pycache__
+├── data
+│   └── attendance.csv
+├── reports
+│   ├── report.csv
+│   └── chart.png
+├── templates
+│   └── index.html
+├── app.py
+├── main.py
+├── db.py
+├── checkin_checkout.py
+├── report_generator.py
+├── visualize.py
+├── requirements.txt
+└── README.md
