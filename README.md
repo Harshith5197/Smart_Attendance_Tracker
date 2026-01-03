@@ -46,8 +46,9 @@ Scalable structure for future enhancements
 
 Proper error handling for database and connection issues
 
-📁 Project Folder Structure
+## 📁 Project Folder Structure
 
+```text
 Smart_Attendance_System
 ├── __pycache__
 ├── data
@@ -65,9 +66,6 @@ Smart_Attendance_System
 ├── visualize.py
 ├── requirements.txt
 └── README.md
-
-
-
 
 🧠 Project Architecture
 
