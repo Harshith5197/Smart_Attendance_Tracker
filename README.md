@@ -47,6 +47,7 @@ Scalable structure for future enhancements
 Proper error handling for database and connection issues
 
 📁 Project Folder Structure
+
 Smart_Attendance_System
 ├── __pycache__
 ├── data
