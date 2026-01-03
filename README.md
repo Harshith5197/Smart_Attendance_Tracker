@@ -46,6 +46,50 @@ Scalable structure for future enhancements
 
 Proper error handling for database and connection issues
 
+📁 Project Folder Structure
+
+Smart_Attendance_System/
+│
+├── __pycache__/                 # Python cache files
+│
+├── data/
+│   └── attendance.csv           # Raw attendance data
+│
+├── Harshith/                    # Virtual environment directory
+│   ├── Include/
+│   ├── Lib/
+│   ├── Scripts/
+│   ├── share/
+│   ├── .gitignore
+│   └── pyvenv.cfg
+│
+├── reports/
+│   ├── 2025-08-06_report.csv    # Daily attendance reports
+│   ├── 2025-08-07_report.csv
+│   ├── 2025-09-07_report.csv
+│   ├── 2025-09-08_report.csv
+│   ├── 2026-01-03_report.csv
+│   ├── 2025-09-07_chart.png     # Attendance visualization charts
+│   ├── 2025-09-08_chart.png
+│   └── 2026-01-03_chart.png
+│
+├── templates/
+│   └── index.html               # Frontend HTML template
+│
+├── utils/
+│   └── helper_functions.py      # Utility/helper functions
+│
+├── app.py                       # Application entry (UI / Flask app)
+├── main.py                      # Main execution file
+├── db.py                        # MongoDB database connection
+├── checkin_checkout.py          # Attendance check-in & check-out logic
+├── report_generator.py          # Attendance report generation
+├── visualize.py                 # Data visualization & chart generation
+│
+├── requirements.txt             # Project dependencies
+└── README.md                    # Project documentation
+
+
 🧠 Project Architecture
 
 User inputs attendance data
