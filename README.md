@@ -50,44 +50,33 @@ Proper error handling for database and connection issues
 
 Smart_Attendance_System/
 │
-├── __pycache__/                 # Python cache files
+├── __pycache__/
 │
 ├── data/
-│   └── attendance.csv           # Raw attendance data
-│
-├── Harshith/                    # Virtual environment directory
-│   ├── Include/
-│   ├── Lib/
-│   ├── Scripts/
-│   ├── share/
-│   ├── .gitignore
-│   └── pyvenv.cfg
+│   └── attendance.csv
 │
 ├── reports/
-│   ├── 2025-08-06_report.csv    # Daily attendance reports
+│   ├── 2025-08-06_report.csv
 │   ├── 2025-08-07_report.csv
 │   ├── 2025-09-07_report.csv
 │   ├── 2025-09-08_report.csv
 │   ├── 2026-01-03_report.csv
-│   ├── 2025-09-07_chart.png     # Attendance visualization charts
+│   ├── 2025-09-07_chart.png
 │   ├── 2025-09-08_chart.png
 │   └── 2026-01-03_chart.png
 │
 ├── templates/
-│   └── index.html               # Frontend HTML template
+│   └── index.html
 │
-├── utils/
-│   └── helper_functions.py      # Utility/helper functions
+├── app.py
+├── main.py
+├── db.py
+├── checkin_checkout.py
+├── report_generator.py
+├── visualize.py
 │
-├── app.py                       # Application entry (UI / Flask app)
-├── main.py                      # Main execution file
-├── db.py                        # MongoDB database connection
-├── checkin_checkout.py          # Attendance check-in & check-out logic
-├── report_generator.py          # Attendance report generation
-├── visualize.py                 # Data visualization & chart generation
-│
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
+├── requirements.txt
+└── README.md
 
 
 🧠 Project Architecture
