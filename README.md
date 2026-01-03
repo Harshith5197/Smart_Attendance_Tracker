@@ -47,31 +47,24 @@ Scalable structure for future enhancements
 Proper error handling for database and connection issues
 
 📁 Project Folder Structure
-'''
-Smart_Attendance_System/
-│
-├── __pycache__/
-│
-├── data/
+Smart_Attendance_System
+├── __pycache__
+├── data
 │   └── attendance.csv
-│
-├── reports/
+├── reports
 │   ├── report.csv
 │   └── chart.png
-│
-├── templates/
+├── templates
 │   └── index.html
-│
 ├── app.py
 ├── main.py
 ├── db.py
 ├── checkin_checkout.py
 ├── report_generator.py
 ├── visualize.py
-│
 ├── requirements.txt
 └── README.md
-'''
+
 
 
 
