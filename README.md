@@ -56,14 +56,8 @@ Smart_Attendance_System/
 │   └── attendance.csv
 │
 ├── reports/
-│   ├── 2025-08-06_report.csv
-│   ├── 2025-08-07_report.csv
-│   ├── 2025-09-07_report.csv
-│   ├── 2025-09-08_report.csv
-│   ├── 2026-01-03_report.csv
-│   ├── 2025-09-07_chart.png
-│   ├── 2025-09-08_chart.png
-│   └── 2026-01-03_chart.png
+│   ├── report.csv
+│   ├── chart.png
 │
 ├── templates/
 │   └── index.html
@@ -77,6 +71,7 @@ Smart_Attendance_System/
 │
 ├── requirements.txt
 └── README.md
+
 
 
 🧠 Project Architecture
