@@ -80,4 +80,4 @@ mongodb+srv://<username>:<password>@cluster0.mongodb.net/
 
 Run the main Python file:
 
-python main.py
+python app.py
