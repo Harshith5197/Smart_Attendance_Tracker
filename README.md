@@ -60,7 +60,7 @@ Data can be queried, analyzed, and displayed efficiently
 
 Clone the repository:
 
-git clone https://github.com/your-username/Smart_Attendance_System.git
+git clone [https://github.com/your-username/Smart_Attendance_System.git](https://github.com/Harshith5197/Smart_Attendance_Tracker)
 
 
 Navigate to the project directory:
