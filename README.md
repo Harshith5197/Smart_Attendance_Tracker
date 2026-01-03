@@ -85,8 +85,6 @@ python app.py
 
 ## 📁 Project Folder Structure
 
-## 📁 Project Folder Structure
-
 ```text
 Smart_Attendance_System
 ├── __pycache__
